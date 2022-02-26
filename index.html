@@ -38,6 +38,13 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+
   <!-- =======================================================
     Theme Name: Imperial
     Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
@@ -55,15 +62,12 @@
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
-        <div class="hero-logo">
-          <img class="" src="img/logo.png" alt="Imperial">
-        </div>
-
+        <p id="my-name">Hendrick Ramos</p>
         <h1>Welcome to My Portfolio</h1>
         <h2>I am <span class="rotating">a FullStack Engineer, an Artist, a Dreamer</span></h2>
         <div class="actions">
           <a href="#about" class="btn-get-started">About Me</a>
-          <a href="#services" class="btn-services">My Projects</a>
+          <a href="#portfolio" class="btn-get-started">My Projects</a>
         </div>
       </div>
     </div>
@@ -76,20 +80,20 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
         <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Header 1</a></h1>-->
+        <p id="nav-name">Hendrick Ramos</p>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li><a href="#team">Technologies</a></li>
+          <li><a href="#services">Links</a></li>
+          <!-- <li><a href="#testimonials">Testimonials</a></li>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -105,8 +109,8 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -121,9 +125,9 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">About Us</h3>
+          <h3 class="section-title">About Me</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p> -->
         </div>
       </div>
     </div>
@@ -134,67 +138,26 @@
           <img src="img/about-img.jpg" alt="">
         </div>
 
-        <div class="col-md-6 about-content">
-          <h2 class="about-title">We provide great services and ideass</h2>
+        <div class="col-md-6 about-content" id="about-content">
+          <h2 class="about-title">I'm Hendrick, and I'm an Engineer</h2>
           <p class="about-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
+            A Software Engineer to be exact!  
           </p>
           <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            I am a Dance Educator/Live Performer turned programmer. I use my creative dance experience and combine it with programming to create  
+            memorable projects through clean, readable code.
           </p>
           <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molli.
+            The synchronization of dance and music flows similarly to coding. As one creates movement, so does a coder write to develop a functional program.
+            When things do not flow, it is the individual's duty to work out the kinks in order to get things moving (pun intended).     
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-  Services Section
-  ============================-->
-  <section id="services">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Our Services</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-desktop"></i></div>
-          <h4 class="service-title"><a href="">Lorem Ipsum</a></h4>
-          <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-          <h4 class="service-title"><a href="">Dolor Sitema</a></h4>
-          <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-          <h4 class="service-title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-photo"></i></div>
-          <h4 class="service-title"><a href="">Magni Dolores</a></h4>
-          <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-road"></i></div>
-          <h4 class="service-title"><a href="">Nemo Enim</a></h4>
-          <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-        </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
-          <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
-          <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <p class="about-text">
+            Dance is a creative and collaborative artform, and coding is one in the same! 
+            As an artist, I strive to impact others positively and with empathy through my works.
+          </p>
+          <p class="about-text">
+            I hope you enjoy what I have to offer!
+          </p>
         </div>
       </div>
     </div>
@@ -206,13 +169,39 @@
   <section id="subscribe">
     <div class="container wow fadeInUp">
       <div class="row">
-        <div class="col-md-8">
+        <div className="about-me-links">
+          <!-- <li id="about-link-to-site">
+            <a href="https://github.com/hendricksimonr/"><img alt='' className='about-img web' src='https://i.imgur.com/V1TQaje.png' /></a>
+          </li> -->
+        
+          <!-- <li id="about-link-to-site" onClick={()=> this.visitSite("https://www.linkedin.com/in/hendrick-ramos/")}
+            >
+            <img alt='' className="about-img linked" src='https://i.imgur.com/uO5d91L.png' />
+          </li>
+        
+          <li id="about-link-to-site" onClick={()=> this.visitSite("https://angel.co/jobs/home")}
+            >
+            <img alt='' className="about-img angel" src='https://i.imgur.com/NROnijm.png' />
+          </li>
+        
+          <li id="about-link-to-site" onClick={()=> this.visitSite("https://github.com/hendricksimonr/")}
+            >
+            <img alt='' className="about-img git" src='https://i.imgur.com/Bj3ZPbm.png' />
+          </li>
+        
+          <li id="about-link-to-site" onClick={()=> this.visitSite("mailto:hendricksimonr@gmail.com")}
+            >
+            <img alt='' className="about-img email" src='https://i.imgur.com/IGgldlO.png' /> -->
+          <!-- </li> -->
+        
+        </div>
+        <!-- <div class="col-md-8">
           <h3 class="subscribe-title">Subscribe For Updates</h3>
           <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
         </div>
         <div class="col-md-4 subscribe-btn-container">
           <a class="subscribe-btn" href="#">Subscribe Now</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -226,39 +215,40 @@
         <div class="col-md-12">
           <h3 class="section-title">Portfolio</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+          <p class="section-description">Click an image to visit the website</p>
         </div>
       </div>
 
+    <div class="portfolio-grid">
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-1.png);" href="https://gamedart.herokuapp.com" >
             <div class="details">
-              <h4>Portfolio 1</h4>
-              <span>Alored dono par</span>
+              <h4>GameDart</h4>
+              <span>Make a few selections and find the next video game for you.</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-2.png);" href="https://hendricksimonr.github.io/Squad-Builder-9000/">
             <div class="details">
-              <h4>Portfolio 2</h4>
-              <span>Alored dono par</span>
+              <h4>The Squad Builder 9000</h4>
+              <span>Find your optimal starting line-up in an NBA Fantasy Draft.</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+          <a class="portfolio-item" id="portfolio-3" style="background-image: url(img/portfolio-3.png);" href="https://disney-cinema.herokuapp.com">
             <div class="details">
-              <h4>Portfolio 3</h4>
-              <span>Alored dono par</span>
+              <h4>Disney Cinema</h4>
+              <span>Watch Disney scenes in this Netflix/Disney Plus hybrid clone.</span>
             </div>
           </a>
         </div>
-
-        <div class="col-md-3">
+      </div>
+        <!-- <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
             <div class="details">
               <h4>Portfolio 4</h4>
@@ -301,59 +291,14 @@
               <span>Alored dono par</span>
             </div>
           </a>
-        </div>
+        </div> -->
 
       </div>
     </div>
   </section>
 
-  <!--==========================
-  Testimonials Section
-  ============================-->
-  <section id="testimonials">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Testimonials</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-3">
-          <div class="profile">
-            <div class="pic"><img src="img/client-1.jpg" alt=""></div>
-            <h4>Saul Goodman</h4>
-            <span>Lawless Inc</span>
-          </div>
-        </div>
-        <div class="col-md-9">
-          <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-9">
-          <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="profile">
-            <div class="pic"><img src="img/client-2.jpg" alt=""></div>
-            <h4>Sara Wilsson</h4>
-            <span>Odeo Inc</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!--==========================
+    <!--==========================
   Team Section
   ============================-->
   <section id="team">
@@ -427,6 +372,102 @@
     </div>
   </section>
 
+
+  <!--==========================
+    Services Section
+    ============================-->
+  <section id="services">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">Links</h3>
+            <div class="section-title-divider"></div>
+            <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-desktop"></i></div>
+            <h4 class="service-title"><a href="">Lorem Ipsum</a></h4>
+            <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+            <h4 class="service-title"><a href="">Dolor Sitema</a></h4>
+            <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+            <h4 class="service-title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-photo"></i></div>
+            <h4 class="service-title"><a href="">Magni Dolores</a></h4>
+            <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-road"></i></div>
+            <h4 class="service-title"><a href="">Nemo Enim</a></h4>
+            <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-md-4 service-item">
+            <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
+            <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--==========================
+  Testimonials Section
+  ============================-->
+  <!-- <section id="testimonials">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Testimonials</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-1.jpg" alt=""></div>
+            <h4>Saul Goodman</h4>
+            <span>Lawless Inc</span>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-2.jpg" alt=""></div>
+            <h4>Sara Wilsson</h4>
+            <span>Odeo Inc</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+
   <!--==========================
   Contact Section
   ============================-->
@@ -434,7 +475,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
+          <h3 class="section-title">Contact</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
@@ -494,26 +535,26 @@
   <!--==========================
   Footer
 ============================-->
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="copyright">
             &copy; Copyright <strong>Imperial Theme</strong>. All Rights Reserved
           </div>
-          <div class="credits">
+          <div class="credits"> -->
             <!--
               All the links in the footer should remain intact.
               You can delete the links only if you purchased the pro version.
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
             -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          <!-- </div>
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
   <!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
