@@ -845,11 +845,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info {
   color: #333333;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #e9625e;
   float: left;
 }
 
@@ -859,8 +862,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #e9625e;
+  border: 1px solid #e9625e;
   display: none;
   text-align: center;
   padding: 15px;
@@ -896,15 +899,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #e9625e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 3px;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #25d8fc;
+  background: #fd827e;
 }
 
 .col-md-push-2 {
@@ -960,3 +964,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 55px;
   text-align: center;
 }
+
+.contact-row {
+  width: 84% !important;
+}
+
+.contact-text {
+  font-size: 21px;
+}
+
+.location {
+  position: relative;
+  top: 4px;
+  left: -10px;
+}
+
+.contact-email {
+  position: relative;
+  left: 5px;
+  top: 4px;
+}
+
+.contact-email a {
+  color: #4e4e4e !important;
+}
+
+.contact-email a:hover {
+  color: #e9625e !important;
+}
+
+#angellist-about {
+  font-size: 155px;
+  color: black;
+}
+
+#pdf-about {
+  font-size: 155px;
+  color: red;
+}
+
+.service-title a {
+  position: relative;
+  top: 12px;
+  color:#4e4e4e !important;
+}
+
+.service-title a:hover {
+  color: #e9625e !important;
+}
+

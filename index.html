@@ -46,12 +46,36 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 
+  <script src="https://kit.fontawesome.com/73b8c62362.js" crossorigin="anonymous"></script>
+
   <!-- =======================================================
     Theme Name: Imperial
     Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+  <style>
+    ::-webkit-scrollbar {
+      width: 3px;
+      background: rgb(29, 29, 29);
+      overflow: overlay;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #e9625e;
+      border-radius: 10px;
+    }
+  
+    ::-webkit-scrollbar-button {
+      height: 0px;
+      display: none;
+      background-color: rgba(255, 255, 255, 0);
+    }
+  </style>
 </head>
 
 <body>
@@ -88,7 +112,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#team">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -168,19 +192,19 @@
     <div class="container about-container wow fadeInUp" >
       <div class="row about-links">
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-desktop"></i></div>
+          <div class="service-icon"><a href="https://github.com/HendrickSimonR" target="_blank"><i class="devicon-github-original colored"></i></a></div>
           <h4 class="service-title"><a href="https://github.com/HendrickSimonR" target="_blank">GitHub</a></h4>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+          <div class="service-icon"><a href="https://www.linkedin.com/in/hendrick-ramos/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a></div>
           <h4 class="service-title"><a href="https://www.linkedin.com/in/hendrick-ramos/" target="_blank">LinkedIn</a></h4>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+          <div class="service-icon"><i class="fab fa-angellist" id="angellist-about"></i></div>
           <h4 class="service-title"><a href="" target="_blank">AngelList</a></h4>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-photo"></i></div>
+          <div class="service-icon"><i class="fa-regular fa-file-pdf" id="pdf-about"></i></div>
           <h4 class="service-title"><a href="" target="_blank">Resume</a></h4>
     </div>
   </section>
@@ -629,32 +653,32 @@
         <div class="col-md-12">
           <h3 class="section-title">Contact</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">I'd love to hear from you!</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3 col-md-push-2">
+        <div class="col-md-3 col-md-push-2 contact-row">
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p class="contact-text location">New York City</p>
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
+              <p class="contact-email"><a href="mailto:hendricksimonr@gmail.com">hendricksimonr@gmail.com</a></p>
             </div>
 
-            <!-- <div>
+            <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
-            </div> -->
+              <p class="contact-text">(347) 634-7466</p>
+            </div>
 
           </div>
         </div>
 
-        <div class="col-md-5 col-md-push-2">
+        <!-- <div class="col-md-5 col-md-push-2">
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
@@ -678,7 +702,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
