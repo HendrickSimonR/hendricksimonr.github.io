@@ -655,7 +655,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
   padding: 80px 0;
 }
 
@@ -934,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .skill-item p {
   font-size: 20px !important;
   padding-top: 10px;
-  /* font-weight: 700; */
+  font-weight: 700;
 }
 
 .col-md-4 {
