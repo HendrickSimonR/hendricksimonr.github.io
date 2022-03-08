@@ -928,5 +928,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .colored {
-  font-size: 10em !important;
+  font-size: 6.5em !important;
+}
+
+.skill-item p {
+  font-size: 20px !important;
+  padding-top: 10px;
+  /* font-weight: 700; */
+}
+
+.col-md-4 {
+  width: 25% !important;
+  padding: 10px;
 }
