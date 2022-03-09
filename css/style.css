@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 20px;
   border-radius: 2px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 5px;
 }
 
 #hero .btn-get-started {
@@ -692,6 +692,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 0;
   transition: 0.3s;
   text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
 }
 
 #portfolio .portfolio-item .details h4 {
@@ -712,7 +714,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
+  opacity: 0.9;
+  border: solid 1px #e9635e91;
+  border-radius: 3px;
 }
 
 #portfolio .portfolio-item:hover .details h4 {
@@ -1024,5 +1028,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .details h4 {
-  margin: 0px !important;
+  margin: 10px !important;
+}
+
+.details a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* display: inline-block; */
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  /* margin: 10px; */
+}
+
+.details .btn-project-links {
+  background: #0000009a;
+  border: 2px solid #e9625e;
+  color: #fff;
+}
+
+.btn-project-links:hover {
+  background: #e9625e;
+}
+
+.not-squad {
+  position: relative;
+  bottom: 5px;
 }
