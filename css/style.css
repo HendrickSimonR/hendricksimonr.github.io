@@ -845,7 +845,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-  color: #333333;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   /* margin: 0 auto; */
@@ -987,7 +987,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-email a {
-  color: #4e4e4e !important;
+  color: #ffffff !important;
 }
 
 .contact-email a:hover {
@@ -1015,5 +1015,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-container {
-  
+  top: 20px;
+  color: white !important;
+}
+
+#contact-header {
+  color: white !important;
 }
