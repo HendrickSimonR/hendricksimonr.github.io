@@ -1022,3 +1022,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact-header {
   color: white !important;
 }
+
+.details h4 {
+  margin: 0px !important;
+}
