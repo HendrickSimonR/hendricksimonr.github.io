@@ -718,7 +718,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover .details {
   opacity: 0.9;
   border: solid 1px #e9635e91;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #portfolio .portfolio-item:hover .details h4 {
