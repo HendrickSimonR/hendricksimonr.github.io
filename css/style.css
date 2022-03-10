@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url("../img/art.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4)), url("../img/art.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -794,7 +794,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8)), url("../img/suit-shot.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.7)), url("../img/suit-shot.jpg") fixed center center;
   background-size: 100%;
   padding: 80px 0 0px 0;
 }
@@ -1061,7 +1061,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #night {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nightsky.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nightsky.jpg) fixed bottom center;
   background-size: cover;
   padding: 111px 0;
 }
