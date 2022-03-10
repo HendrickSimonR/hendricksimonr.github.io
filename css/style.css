@@ -1052,6 +1052,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #0000009a;
   border: 2px solid #e9625e;
   color: #fff;
+  border-radius: 4px;
 }
 
 .btn-project-links:hover {
