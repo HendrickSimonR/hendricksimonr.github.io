@@ -518,12 +518,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#about .about-img {
+/* #about .about-img {
   overflow: hidden;
-}
+} */
 
 #about .about-img img {
-  width: 80%;
+  width: 90%;
   border-radius: 4px;
 }
 
@@ -556,7 +556,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 26px;
   margin-bottom: 15px;
   font-size: 17px;
-  color:rgba(0, 0, 0, 0.925);
+  color:rgba(0, 0, 0, 0.77);
+  font-family: 'Montserrat', sans-serif;
 }
 
 #about .about-text:last-child {
