@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)), url("../img/suit-shot.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url("../img/art.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -555,7 +555,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-text {
   line-height: 26px;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 17px;
+  color:rgba(0, 0, 0, 0.925);
 }
 
 #about .about-text:last-child {
@@ -658,7 +659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/tech.jpeg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -793,7 +794,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/tech.jpeg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.9)), url("../img/suit-shot.jpg") fixed bottom center;
   background-size: 100%;
   padding: 80px 0 0px 0;
 }
