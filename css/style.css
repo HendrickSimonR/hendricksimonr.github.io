@@ -1015,6 +1015,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 12px;
   color:#222222 !important;
   font-weight: 600;
+  font-family: 'Montserrat';
 }
 
 .service-title a:hover {
