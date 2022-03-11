@@ -1013,7 +1013,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .service-title a {
   position: relative;
   top: 12px;
-  color:#4e4e4e !important;
+  color:#333333 !important;
+  font-weight: 600;
 }
 
 .service-title a:hover {
