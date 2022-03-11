@@ -1014,7 +1014,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .service-title a {
   position: relative;
   top: 12px;
-  color:#222222 !important;
+  color:#333 !important;
   font-weight: 600;
   font-family: 'Montserrat';
 }
