@@ -675,7 +675,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 #portfolio-3 {
