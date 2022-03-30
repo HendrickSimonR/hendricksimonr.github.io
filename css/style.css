@@ -103,7 +103,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none !important;
   font-size: 111px !important;
   color: white;
-  margin: 0;
+  line-height: 0.8;
+  margin-bottom: 50px;
   position: relative;
   top: 38px;
 }
@@ -159,9 +160,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     line-height: 26px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
   }
   #hero h2 .rotating {
     display: block;
+    margin-left: 6px;
   }
 }
 
