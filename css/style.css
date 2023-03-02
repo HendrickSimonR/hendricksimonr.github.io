@@ -7,11 +7,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: #fff;
   color: #4e4e4e;
   font-family: "Open Sans", sans-serif;
+}
+
+#body-wrapper {
   overflow-x: hidden;
+}
+
+@media (min-width: 992px) {
+  body {
+    width: 100%;
+  }
 }
 
 a {
