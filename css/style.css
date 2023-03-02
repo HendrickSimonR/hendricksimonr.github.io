@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 111px 0;
     background-position-x: -144vw !important;
     /* background-size: contain; */
-    background-position-y: 21vh !important;
+    /* background-position-y: 21vh !important; */
     /* width: 159vw; */
   }
 
