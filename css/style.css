@@ -111,9 +111,17 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-@media (min-width: 1024px) {
+
+@media (min-width: 1024p    bac ;x}
+) {
   #hero {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background-position-x: -66px;
   }
 }
 
@@ -121,6 +129,10 @@ h1, h2, h3, h4, h5, h6 {
   #my-name {
     font-size: 27vw !important;
     padding-right: 14px;
+  }
+
+  #about {
+    background-position-x: 188vw;
   }
 }
 
