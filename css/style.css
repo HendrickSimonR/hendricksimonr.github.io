@@ -11,6 +11,7 @@ body {
   background: #fff;
   color: #4e4e4e;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -48,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
+}
+
+#mobile-nav ul .menu-item-active {
+  color: #e9625e;
 }
 
 /* Back to top button */
@@ -184,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   margin: 5px;
+  line-height: 23px;
 }
 
 #hero .btn-get-started {
