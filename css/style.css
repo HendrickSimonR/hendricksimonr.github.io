@@ -135,9 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   #about-img {
     width: 100% !important;
   }
-  
+
   #nav-name {
-    padding-top: 10vh;
+    padding-top: 2vh;
   }
 }
 
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   #my-name {
     font-size: 27vw !important;
     padding-right: 14px;
-  }
+  }  
 
   #about {
     background-position-x: 188vw;
