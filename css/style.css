@@ -127,9 +127,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-position-x: -66px;
   }
-
-  #about {
-    background-position-x: 180vw !important
+    
+  #about { 
+    background-position-x: 191vw;
   }
 
   #about-img {
@@ -159,10 +159,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 27vw !important;
     padding-right: 14px;
   }  
-
-  #about {
-    background-position-x: 191vw;
-  }
 }
 
 #my-name {
