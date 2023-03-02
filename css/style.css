@@ -136,8 +136,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 100% !important;
   }
 
+  .about-links {
+    margin-left: 10px;
+  }
+
   #nav-name {
     padding-top: 2vh;
+  }
+
+  #subscribe {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed !important;
+    padding: 111px 0;
+    background-position-x: -144vw !important;
+    /* background-size: contain; */
+    background-position-y: 21vh !important;
+    /* width: 159vw; */
   }
 }
 
@@ -148,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   }  
 
   #about {
-    background-position-x: 188vw;
+    background-position-x: 191vw;
   }
 }
 
