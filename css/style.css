@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   }
     
   #about { 
-    background-position-x: 191vw !important;
+    background-position-x: 186vw !important;
   }
 
   #about-img {
@@ -151,6 +151,11 @@ h1, h2, h3, h4, h5, h6 {
     /* background-size: contain; */
     background-position-y: 21vh !important;
     /* width: 159vw; */
+  }
+
+  #team {
+    background-size: 420% !important;
+    background-position-x: -157vw !important;
   }
 }
 
