@@ -183,6 +183,38 @@ h1, h2, h3, h4, h5, h6 {
   .portfolio-item {
     position: initial !important;
   }
+
+  .section-description {
+    font-size: large;
+  }
+
+  #contact .info {
+    display: initial !important;
+    text-align: center;
+    float: initial !important;
+  }
+
+  #contact .info p {
+    padding: 0 0 10px 0 !important;
+  }
+
+  #contact .info i {
+    float: initial !important;
+  }
+
+  .location {
+    left: 0px !important;
+  }
+
+  .contact-email a {
+    font-size: large;
+  }
+
+  .contact-text {
+    font-size: 21px;
+    position: relative;
+    top: 10px;
+  }
 }
 
 @media (max-width: 768px) and (max-height: 500px) {
