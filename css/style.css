@@ -112,8 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (min-width: 1024p    bac ;x}
-) {
+@media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
@@ -125,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #about {
-    background-position-x: -180vw !important
+    background-position-x: 180vw !important
   }
 }
 
