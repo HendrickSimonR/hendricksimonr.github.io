@@ -22,6 +22,15 @@ body {
   overflow-x: hidden;
 }
 
+#mobile-nav ul .menu-item-active {
+  color: #e9625e !important;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #e9625e !important;
+}
+
+
 @media (min-width: 992px) {
   body {
     width: 100%;
