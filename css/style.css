@@ -119,6 +119,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #my-name {
+    font-size: 27vw !important;
+    padding-right: 14px;
+  }
+  
   #hero {
     background-position-x: -66px;
   }
