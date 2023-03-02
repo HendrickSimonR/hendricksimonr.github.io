@@ -175,6 +175,14 @@ h1, h2, h3, h4, h5, h6 {
   #night {
     background-position-x: -500px;
   }
+
+  .col-md-3 {
+    width: 100% !important;
+  }
+
+  .portfolio-item {
+    position: initial !important;
+  }
 }
 
 @media (max-width: 768px) and (max-height: 500px) {
@@ -775,7 +783,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .col-md-3 {
-  width: 49% !important;
+  width: 49%;
 }
 
 #portfolio .portfolio-item .details {
